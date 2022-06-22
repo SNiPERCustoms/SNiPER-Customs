@@ -12,6 +12,10 @@ $(document).ready(function(){
         }
     });
     
+    $('.navbar-toggler-icon').click(function(){
+        $('.navbar-nav').toggleClass("active");
+        $('.avbar-toggler').toggleClass("active")
+    })
 
     var typed = new Typed(".typing", {
         strings: ["Web Designer", "Content Writer", "Web Devoloper", "freelancer"],
@@ -30,4 +34,6 @@ $(document).ready(function(){
     
 
 });
+
+
 
