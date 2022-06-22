@@ -14,14 +14,39 @@ html{
     margin: auto;
 }
  /*navbar styling*/
+ .navbar-nav > li{
+    padding-left:5px;
+    padding-right: 5px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+    transition: color 0.3s ease;
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+  }
+.navbar-nav > li a{
+    color: #black;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+    transition: color 0.3s ease;
+}
+
+
+.navbar-toggler{
+    background: black;
+    color: #990000;
+}
  .navbar{
     position: fixed;
     width: 100%;
     z-index: 999;
     padding: 15px 0;
-    background: none; 
     font-family: 'Ubuntu', sans-serif;
     transition: all 0.3s ease;
+    height: 60px;
  }
 .navbar.sticky{
     padding: 15px 0;
@@ -616,3 +641,4 @@ footer span a:hover{
     }
 
 }
+
